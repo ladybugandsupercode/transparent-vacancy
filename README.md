@@ -154,8 +154,8 @@ python -m unittest discover -s tests -v
 
 ## Материалы для сдачи
 
-- **SHA коммита для оценки:** `0edacd3` 
-- **Пример отчета:** `reports/sample_report.json` — результат анализа учебных данных в проверочном режиме
+- **SHA коммита для оценки:** `feca060` 
+- **Пример отчета:** `https://github.com/ladybugandsupercode/transparent-vacancy/blob/main/reports/sample_report.json%C2%A0%C2%A0` — результат анализа учебных данных в проверочном режиме
 
 ### Вклад участников
 
