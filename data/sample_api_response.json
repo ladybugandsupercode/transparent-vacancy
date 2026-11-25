@@ -1,0 +1,46 @@
+{
+  "status": "200",
+  "meta": {
+    "total": "2",
+    "limit": "100",
+    "offset": "0"
+  },
+  "results": {
+    "vacancies": [
+      {
+        "vacancy": {
+          "id": "demo-001",
+          "vac_url": "https://trudvsem.ru/",
+          "job-name": "Специалист по работе с клиентами",
+          "duty": "Консультирование клиентов, ведение документации",
+          "requirement": "Опыт работы приветствуется",
+          "salary_min": "35000",
+          "salary_max": "45000",
+          "schedule": "Гибкий график",
+          "employment": "Полная занятость",
+          "work-places": "Калининград",
+          "region": {
+            "name": "Калининградская область"
+          },
+          "company": {
+            "name": "Учебный пример"
+          }
+        }
+      },
+      {
+        "vacancy": {
+          "id": "demo-002",
+          "vac_url": "https://trudvsem.ru/",
+          "job-name": "Помощник администратора",
+          "duty": "Помощь администратору",
+          "requirement": "",
+          "salary_min": "",
+          "salary_max": "",
+          "schedule": "Сменный график",
+          "employment": "",
+          "work-places": "Калининград"
+        }
+      }
+    ]
+  }
+}
