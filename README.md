@@ -31,7 +31,7 @@ ollama pull qwen2.5:3b
 
 ```bash
 git clone <URL_ВАШЕГО_РЕПОЗИТОРИЯ>
-cd prozrachnaya_vakansiya
+cd transparent-vacancy
 python -m venv .venv
 ```
 
