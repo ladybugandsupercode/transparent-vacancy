@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-11-25T10:15:00+03:00",
+  "mode": "verify",
+  "source": "data/sample_api_response.json",
+  "region_code": "39",
+  "vacancies_count": 2,
+  "vacancies": [
+    {
+      "id": "demo-001",
+      "url": "https://trudvsem.ru/",
+      "remarks": [
+        {
+          "topic": "График работы",
+          "source_field": "schedule",
+          "quote": "Гибкий график",
+          "issue": "Не указаны дни и временные интервалы работы.",
+          "recommendation": "Уточнить дни недели, продолжительность смены и время начала/окончания.",
+          "kind": "ambiguity"
+        },
+        {
+          "topic": "Оплата труда",
+          "source_field": "salary_min",
+          "quote": "",
+          "issue": "Отсутствует информация о минимальной зарплате.",
+          "recommendation": "Указать диапазон заработной платы.",
+          "kind": "missing"
+        }
+      ]
+    },
+    {
+      "id": "demo-002",
+      "url": "https://trudvsem.ru/",
+      "remarks": [
+        {
+          "topic": "Требования",
+          "source_field": "requirements",
+          "quote": "",
+          "issue": "Отсутствуют требования к кандидату.",
+          "recommendation": "Указать необходимые навыки, опыт и образование.",
+          "kind": "missing"
+        },
+        {
+          "topic": "Оплата труда",
+          "source_field": "salary_min",
+          "quote": "",
+          "issue": "Отсутствует информация о заработной плате.",
+          "recommendation": "Указать диапазон заработной платы.",
+          "kind": "missing"
+        },
+        {
+          "topic": "Тип занятости",
+          "source_field": "employment",
+          "quote": "",
+          "issue": "Не указан тип занятости.",
+          "recommendation": "Уточнить: полная, частичная занятость или проектная работа.",
+          "kind": "missing"
+        }
+      ]
+    }
+  ]
+}
